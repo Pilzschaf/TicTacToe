@@ -1,7 +1,0 @@
-/mnt/nfs/home/Workspace/Studio/Miscellaneous/C++ Tutorials/Tutorial/build/CMakeFiles/install.dir
-/mnt/nfs/home/Workspace/Studio/Miscellaneous/C++ Tutorials/Tutorial/build/CMakeFiles/list_install_components.dir
-/mnt/nfs/home/Workspace/Studio/Miscellaneous/C++ Tutorials/Tutorial/build/CMakeFiles/rebuild_cache.dir
-/mnt/nfs/home/Workspace/Studio/Miscellaneous/C++ Tutorials/Tutorial/build/CMakeFiles/tutorial.dir
-/mnt/nfs/home/Workspace/Studio/Miscellaneous/C++ Tutorials/Tutorial/build/CMakeFiles/edit_cache.dir
-/mnt/nfs/home/Workspace/Studio/Miscellaneous/C++ Tutorials/Tutorial/build/CMakeFiles/install/strip.dir
-/mnt/nfs/home/Workspace/Studio/Miscellaneous/C++ Tutorials/Tutorial/build/CMakeFiles/install/local.dir
