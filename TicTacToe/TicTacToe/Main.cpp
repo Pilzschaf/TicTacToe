@@ -1,7 +1,11 @@
-#include "iostream"
+#include <iostream>
+
+#include "TicTacToe.h"
 
 int main()
 {
+	TicTacToe t = TicTacToe();
+	t.run();
 
 	system("PAUSE");
 
