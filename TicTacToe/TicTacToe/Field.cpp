@@ -17,6 +17,8 @@ Field::Field(char player1Char, char player2Char)
 void Field::resetField()
 {
 	this->numFreePostions = 9;
+	
+	this->isPlayer1Perspective = true;
 
 	for (int i = 0; i < 9; i++)
 	{
