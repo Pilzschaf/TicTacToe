@@ -111,11 +111,11 @@ bool Field::isEmptyMarkAt(int pos)
 void Field::printCurrentField()
 {
 	std::cout << "\n\n\n"
-		<< "     " << field[0] << " | " << field[1] << " | " << field[2] << std::endl
-		<< "    ---|---|---" << std::endl
-		<< "     " << field[3] << " | " << field[4] << " | " << field[5] << std::endl
-		<< "    ---|---|---" << std::endl
-		<< "     " << field[6] << " | " << field[7] << " | " << field[8] << std::endl;
+			<< "     " << field[0] << " | " << field[1] << " | " << field[2] << "\t\t"   <<  " 1" << " | " << "2" << " | " << "3"<< std::endl
+			<< "    ---|---|---" << "\t\t---|---|---"<< std::endl
+			<< "     " << field[3] << " | " << field[4] << " | " << field[5] << "\t\t"   <<  " 4" << " | " << "5" << " | " << "6"<< std::endl
+			<< "    ---|---|---" << "\t\t---|---|---" << std::endl
+			<< "     " << field[6] << " | " << field[7] << " | " << field[8] << "\t\t"   <<  " 7" << " | " << "8" << " | " << "9"<< std::endl;
 }
 
 bool Field::hasPlayerWithCharWon(char character)
