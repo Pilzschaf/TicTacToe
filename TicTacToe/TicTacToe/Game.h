@@ -12,29 +12,38 @@ public:
 	{
 		while (!field->isFull() && !field->hasLost() && !field->hasWon())
 		{
+			field->switchPerspective();
 			player1->doTurn(field);
 
 			Player* player = player1;
 			player1 = player2;
 			player2 = player;
 
-			field->switchPerspective();
 		}
+		field->isPlayer1Perspective = true;
 
 		if (field->hasWon())
 		{
-			player1->onWin();
-			player2->onLose();
+			system("clear");
+			cout << "\n***** Spieler 1 hat gewonnen! *****" << endl;
+			field->printCurrentField();
+
 		}
-		else if (field->hasLost())
+		//field->isPlayer1Perspective = false;
+
+		if (field->hasLost())
 		{
-			player2->onWin();
-			player1->onLose();
+			system("clear");
+			cout << "\n***** Spieler 2 hat gewonnen! *****" << endl;
+			field->printCurrentField();
+
 		}
-		else
+
+		if(!field->hasLost() && !field->hasWon())
 		{
-			player1->onTie();
-			player2->onTie();
+			system("clear");
+			cout << "\n----- Unentschieden -----" << endl;
+			field->printCurrentField();
 		}
 	}
 
