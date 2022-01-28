@@ -17,8 +17,6 @@ public:
 			std::cout << "\n\nMain Menu:\n\n1: Singleplayer\n2: Local Multiplayer\n3: Quit\n\nInput: ";
 			std::cin >> input;
 			int numberEntered = input - '0';
-			
-			field.isPlayer1Perspective = false;
 
 			if (numberEntered == 1)
 			{
