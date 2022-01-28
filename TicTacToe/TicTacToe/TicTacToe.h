@@ -18,7 +18,7 @@ public:
 			std::cin >> input;
 			int numberEntered = input - '0';
 			
-			field.isPlayer1Perspective = false;
+			field.switchPerspective();
 
 			if (numberEntered == 1)
 			{
